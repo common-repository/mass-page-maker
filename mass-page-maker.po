@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mass Page Maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 20:57-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Wes Goodhoofd <w@wesg.ca>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: panels.php:46
+msgid "This version of the plugin is limited to 10 posts or less."
+msgstr ""
+
+#: panels.php:55
+msgid "The web form is missing required data"
+msgstr ""
+
+#: panels.php:66
+msgid "Post password missing"
+msgstr ""
+
+#: panels.php:131
+msgid "Mass Page Maker "
+msgstr ""
+
+#: panels.php:142
+msgid ""
+"As a result of WordPress plugin repository policies, this version of the "
+"plugin has now been limited to 10 posts or less using only the web "
+"interface. This public version has received user interface updates to make "
+"importing web posts easier, but to continue using CSV import, please "
+"purchase <a href=\"http://www.wesg.ca/wordpress-plugins/mass-page-maker-pro/"
+"\" target=\"_blank\">Mass Page Maker Pro</a>. If you'd prefer, you may "
+"continue to use the older version of the complete plugin <a href=\"http://"
+"www.wesg.ca/ft7\">available here</a>. <a href=\"#\" onclick=\"return "
+"mpm_dismiss_plugin_message()\">Dismiss Message</a>"
+msgstr ""
+
+#: panels.php:143
+msgid ""
+"From this page, you can create as many posts or pages as you like, but keep "
+"server capability and memory in mind. Customize every aspect of the pages "
+"using the options below. Use [+] to insert the incremental value for the "
+"pages. The increment can be used in the title, content, excerpt and menu "
+"order field."
+msgstr ""
+
+#: panels.php:144
+msgid ""
+"To keep the web interface straightforward, it no longer supports unique post "
+"titles, content or excerpts. To create unique pages, please use a CSV file."
+msgstr ""
+
+#: panels.php:145
+msgid ""
+"Set the post time for the future, past or present. Add a time interval for "
+"separating pages. For dates in the future, the pages are added to the "
+"publishing queue."
+msgstr ""
+
+#: panels.php:146
+msgid ""
+"You may use placeholders to enter standard information into the page title, "
+"page content, page excerpt using the web interface. Use <strong>[blog_title]"
+"</strong>, <strong>[blog_description]</strong>, <strong>[blog_url]</strong> "
+"or <strong>[page_title]</strong>."
+msgstr ""
+
+#: panels.php:147
+msgid ""
+"Using the core WordPress post creating system, this plugin has a fairly high "
+"post limit. The primary limit is your patience."
+msgstr ""
+
+#: panels.php:148
+msgid ""
+"Plugin translations are welcome! Use Twitter or my website to get in contact "
+"and provide the required files."
+msgstr ""
+
+#: panels.php:158
+msgid "Number of pages"
+msgstr ""
+
+#: panels.php:162
+msgid "Start of page increment"
+msgstr ""
+
+#: panels.php:166
+msgid "Starting page order"
+msgstr ""
+
+#: panels.php:170
+msgid "Starting date"
+msgstr ""
+
+#: panels.php:170
+msgid "Use the format YYYY-MM-DD HH:MM:SS"
+msgstr ""
+
+#: panels.php:173
+msgid "Post Interval"
+msgstr ""
+
+#: panels.php:174
+msgid "Use the format HH:MM:SS"
+msgstr ""
+
+#: panels.php:177
+msgid "Page Title"
+msgstr ""
+
+#: panels.php:181
+msgid "Page Content"
+msgstr ""
+
+#: panels.php:185
+msgid "Page Excerpt"
+msgstr ""
+
+#: panels.php:189
+msgid "Page Category"
+msgstr ""
+
+#: panels.php:190
+msgid "Add Category"
+msgstr ""
+
+#: panels.php:197
+msgid "Page Parent"
+msgstr ""
+
+#: panels.php:204
+msgid "Page Template"
+msgstr ""
+
+#: panels.php:207
+msgid "Default Template"
+msgstr ""
+
+#: panels.php:215
+msgid "Page type"
+msgstr ""
+
+#: panels.php:219
+msgid "Comments Open"
+msgstr ""
+
+#: panels.php:224
+msgid "Pings Open"
+msgstr ""
+
+#: panels.php:229
+msgid "Page status"
+msgstr ""
+
+#: panels.php:231
+msgid "Published"
+msgstr ""
+
+#: panels.php:232
+msgid "Draft"
+msgstr ""
+
+#: panels.php:233
+msgid "Pending Review"
+msgstr ""
+
+#: panels.php:238
+msgid "Page visibility"
+msgstr ""
+
+#: panels.php:240
+msgid "Public"
+msgstr ""
+
+#: panels.php:241
+msgid "Private"
+msgstr ""
+
+#: panels.php:242
+msgid "Password"
+msgstr ""
+
+#: panels.php:243
+msgid "Sticky post"
+msgstr ""
+
+#: panels.php:248
+msgid "Custom Fields"
+msgstr ""
+
+#: panels.php:251
+msgid ""
+"Add custom fields to your posts, with a single key/value in their respective "
+"box. Each post will contain the same data, which is added to the "
+"<code>wp_postmeta</code> database table."
+msgstr ""
+
+#: panels.php:259
+msgid "Name"
+msgstr ""
+
+#: panels.php:260
+msgid "Value"
+msgstr ""
+
+#: panels.php:268
+msgid "Tags"
+msgstr ""
+
+#: panels.php:271
+msgid ""
+"All posts entered here will have the same tags. For separate tags on each "
+"post, use a CSV file with <a href=\"http://www.wesg.ca/wordpress-plugins/"
+"mass-page-maker-pro/\">Mass Page Maker Pro</a>."
+msgstr ""
+
+#: panels.php:283
+msgid "Add Pages"
+msgstr ""
+
+#: mass-page-maker.php:98
+msgid "This plugin version is limited to 10 posts or less."
+msgstr ""
+
+#: mass-page-maker.php:235
+#, php-format
+msgid "Successfully processed %d posts in %%.3f seconds"
+msgstr ""
+
+#: mass-page-maker.php:237
+msgid "Error adding posts"
+msgstr ""
+
+#: mass-page-maker.php:239
+#, php-format
+msgid "There were %d %s processed correctly, but %d %s not."
+msgstr ""
+
+#: mass-page-maker.php:307
+msgid "Done"
+msgstr ""
+
+#: mass-page-maker.php:308
+msgid "Return to form"
+msgstr ""
